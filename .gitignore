@@ -1,4 +1,5 @@
-__pycache__/
+# Ignorar archivos y directorios generados por el entorno virtual y archivos temporales
+https://github.com/DIEGO-ZULU-17/Data_Science_DS4B.git__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
@@ -12,7 +13,10 @@ env/
 *.sqlite3
 
 # Modelos y artefactos pesados
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.onnx
+# models/
+# models/*.pkl
+# models/*.joblib
+# models/*.h5
+# models/*.onnx
+
+# data/processed/

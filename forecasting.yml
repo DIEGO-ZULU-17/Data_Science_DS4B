@@ -234,4 +234,4 @@ dependencies:
   - zeromq=4.3.5=h6c54ac7_1
   - zlib=1.3.1=h02ab6af_0
   - zstd=1.5.7=h56299aa_0
-prefix: C:\Users\isaac\miniconda3\envs\Forecasting
+prefix: C:\Users\diego\miniconda3\envs\Forecasting
