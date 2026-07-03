@@ -1,0 +1,37 @@
+name: forecasting
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - streamlit
+  - jupyter
+  - notebook
+  - ipykernel
+  - statsmodels
+  - prophet
+  - plotly
+  - openpyxl
+  - xlrd
+  - requests
+  - beautifulsoup4
+  - altair
+  - holidays
+  - pyarrow
+  - pyyaml
+  - psutil
+  - gitpython
+  - jinja2
+  - click
+  - pip
+  - pip:
+      - lightgbm
+      - xgboost
+      - catboost

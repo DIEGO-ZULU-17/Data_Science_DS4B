@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+*.log
+.DS_Store
+*.sqlite3
+
+# Modelos y artefactos pesados
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
