@@ -7,6 +7,7 @@ Este repositorio contiene un proyecto de Machine Learning orientado a la simulac
 ## Objetivo
 
 El objetivo principal es ofrecer una herramienta reproducible que permita:
+
 - procesar y transformar datos históricos de ventas y competencia,
 - entrenar un modelo de forecasting sobre series temporales de ventas,
 - generar predicciones de unidades vendidas e ingresos proyectados,
@@ -51,10 +52,13 @@ El objetivo principal es ofrecer una herramienta reproducible que permita:
 
 1. Crear un entorno virtual de Python.
 2. Instalar las dependencias con:
+
    ```bash
    pip install -r requirements.txt
    ```
+
 3. Iniciar la aplicación Streamlit desde la raíz del proyecto:
+
    ```bash
    streamlit run app/app.py
    ```
@@ -74,3 +78,9 @@ Si prefieres una licencia más restrictiva, puedes considerar Apache 2.0 o GNU G
 ## Beneficios del proyecto
 
 Esta solución está diseñada para ayudar a equipos comerciales y analistas a evaluar rápidamente el impacto de promociones y precios competitivos sobre ventas futuras, proporcionando un marco reproducible y fácil de desplegar para experimentación de forecasting.
+
+## Despliegue
+
+La aplicación ha sido desplegada en Streamlit Cloud. Puedes acceder a ella en el siguiente enlace:
+
+🔗 **[https://data-science-diego.streamlit.app/](https://data-science-diego.streamlit.app/)**
